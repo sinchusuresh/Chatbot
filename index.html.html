@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chat</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Interactive Chat</h1>
+        </header>
+        <main class="chat-main">
+            <div class="message-list" id="messageList"></div>
+            <div class="typing-indicator hidden" id="typingIndicator">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </main>
+        <form class="chat-input" id="chatForm">
+            <textarea id="messageInput" placeholder="Type your message..." rows="1"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
